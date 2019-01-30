@@ -1,6 +1,6 @@
 # Bamazon-App
 ### **Description:**
-A Node app similar to amazon in the way of browsing available inventory and selecting products for purchase through the command line. Users can specify a certain quantity of a product, unless that value is greater than the quantity in stock. Once a purchase is made, the datatable is updated to reflect the new quantity, and informs the user of their total cost.<br>
+A Node app similar to amazon in the way of browsing available inventory and selecting products for purchase through the command line. Users can specify a certain quantity of a product, unless that value is greater than the quantity in stock. Once a purchase is made, the datatable is updated to reflect the new quantity, and informs the user of their total cost. The manager app allows updates to be made in the product database. Items can be viewed, existing items can be replenished or stocked, new products can be added, and products with low inventory can be easily identified<br>
 _____
 ### **Before You Begin**
 * Open Terminal or Gitbash
