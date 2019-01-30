@@ -31,6 +31,7 @@ When this application is run through the terminal command line, it will provide 
 _____
 ### **Demo Videos**
 * bamazonCustomer.js (URL)
+* bamazonManager.js (URL)
 _____
 ### **Technologies Used**
 * Node.js
