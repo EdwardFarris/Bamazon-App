@@ -9,15 +9,25 @@ _____
     * npm install mysql
     * npm install inquirer<br>
 _____
-### **What the App Does**
+### **What the Apps Do**
+1. **bamazonCustomer.js**
 When this application is run through the terminal command line, it will do the following:
-1. Prints all available items from the store along with other information including the price, quantity, and department.
-2. Prompts the customer to choose an item to purchase by entering the item's unique ID number.
-3. Then prompts the customer to enter a valid quantity of the item if they want more than one.
+* Prints all available items from the store along with other information including the price, quantity, and department.
+* Prompts the customer to choose an item to purchase by entering the item's unique ID number.
+* Then prompts the customer to enter a valid quantity of the item if they want more than one.
     * If there is enough of the item in stock, it will display the total cost to the customer.
     * If there is NOT enough of the item in stock, it will inform the customer of this.
     * If the purchase went through, the stock-quantity is immediately updated in the database to reflect the purchase.
     * It also updates the total sales in the departments table.<br>
+_____
+2. **bamazonManager.js**
+When this application is run through the terminal command line, it will provide a menu of commands that allow the manager to do the following:
+* **View All Products:** Displays all available items from the store along with other information including the price, quantity, and department.
+* **View Low Inventory:** Displays any products that have a quantity of 5 or less in stock.
+    * These items will ONLY display when quantity reaches 5 or less, if no items are shown, all items quantity is greater than 5.
+* **Add Item to Inventory:** Allows the manager to add more of any existing item(s) to the inventory and updates the product database. Prompts will ask user for product name and then how many they wish to add.
+* **Add a New Product:** Allows the manager to add a completely NEW product that did not exist before. Prompts will guide the user in adding all relevant information including the product name, price, quantity, and department name.
+* **End Session:**Allows user to exit the program<br>
 _____
 ### **Demo Videos**
 * bamazonCustomer.js (URL)
