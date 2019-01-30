@@ -9,8 +9,16 @@ _____
     * npm install mysql
     * npm install inquirer<br>
 _____
+### **How to Run the Apps**
+1. open file directory in the terminal or Gitbash
+2. type the following in the command line:  **node filename** 
+    * Filename will either be:
+        * bamazonCustomer.js if you wish to shop as a customer.
+        * bamazonManager.js if you wish to modify the inventory as manager.
+3. Follow the prompts that are returned
+_____
 ### **What the Apps Do**
-1. **bamazonCustomer.js**
+1. **bamazonCustomer.js:** 
 When this application is run through the terminal command line, it will do the following:
 * Prints all available items from the store along with other information including the price, quantity, and department.
 * Prompts the customer to choose an item to purchase by entering the item's unique ID number.
