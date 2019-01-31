@@ -38,15 +38,22 @@ When this application is run through the terminal command line, it will provide 
 * **End Session:**Allows user to exit the program<br>
 _____
 ### **Demo Screenshots**
-* bamazonCustomer.js 
+##### bamazonCustomer.js 
+* As a customer, users may view all products and make a purchase!
 ![bamazonCustomer](customerPurchase.png)
+* The app will not allow customers to purchase more items than the store has in stock!
 ![bamazonCustomer](insufficientQuantity.png)
 _____
-* bamazonManager.js 
+##### bamazonManager.js 
+* As a manager, users may make selections from a menu prompt!
 ![bamazonManager](managerMenu.png)
+* Managers may view all products!
 ![bamazonManager](managerViewItems.png)
+* They may also choose to see ONLY items that are "low inventory" (5 or less items).
 ![bamazonManager](managerLowInventory.png)
+* Managers may add or replenish the stock of existing items in the inventory database!
 ![bamazonManager](managerAddInventory.png)
+* They may also add NEW products to the inventory database including all relevant information pertaining to the item.
 ![bamazonManager](managerNewProduct.png)
 _________
 ### **Technologies Used**
