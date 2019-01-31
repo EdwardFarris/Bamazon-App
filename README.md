@@ -13,9 +13,9 @@ _____
 1. open file directory in the terminal or Gitbash
 2. type the following in the command line:  **node filename** 
     * Filename will either be:
-        * bamazonCustomer.js if you wish to shop as a customer.
-        * bamazonManager.js if you wish to modify the inventory as manager.
-3. Follow the prompts that are returned
+        * *bamazonCustomer.js* if you wish to shop as a customer.
+        * *bamazonManager.js* if you wish to modify the inventory as manager.
+3. Follow the prompts that are returned<br>
 _____
 ### **What the Apps Do**
 1. **bamazonCustomer.js:** 
