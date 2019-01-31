@@ -141,7 +141,10 @@ function addNewProduct() {
         if (err) throw err;
         //pushes items into the itemArray
         for (var i = 0; i < res.length; i++) {
-            deptNames.push(res[i].department_name);
+            
+            if (!deptNames.includes(res[i].department_name)){
+                deptNames.push(res[i].department_name);
+            }
         }
     })
 

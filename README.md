@@ -6,16 +6,16 @@ _____
 * Open Terminal or Gitbash
 * Clone Repo
 * within the directory of the repo, install Node packages:
-    * npm install mysql
-    * npm install inquirer<br>
+    * npm install mysql (https://www.npmjs.com/package/inquirer)
+    * npm install inquirer (https://www.npmjs.com/package/inquirer)<br>
 _____
 ### **How to Run the Apps**
 1. open file directory in the terminal or Gitbash
 2. type the following in the command line:  **node filename** 
     * Filename will either be:
         * *bamazonCustomer.js* if you wish to shop as a customer.
-        * *bamazonManager.js* if you wish to modify the inventory as manager.
-3. Follow the prompts that are returned<br>
+        * *bamazonManager.js* if you wish to modify the inventory as a manager.
+3. Follow the prompts that are returned using the arrow keys and the return button.<br>
 _____
 ### **What the Apps Do**
 1. **bamazonCustomer.js:** 
@@ -37,10 +37,18 @@ When this application is run through the terminal command line, it will provide 
 * **Add a New Product:** Allows the manager to add a completely NEW product that did not exist before. Prompts will guide the user in adding all relevant information including the product name, price, quantity, and department name.
 * **End Session:**Allows user to exit the program<br>
 _____
-### **Demo Videos**
-* bamazonCustomer.js (URL)
-* bamazonManager.js (URL)
+### **Demo Screenshots**
+* bamazonCustomer.js 
+![bamazonCustomer](customerPurchase.png)
+![bamazonCustomer](insufficientQuantity.png)
 _____
+* bamazonManager.js 
+![bamazonManager](managerMenu.png)
+![bamazonManager](managerViewItems.png)
+![bamazonManager](managerLowInventory.png)
+![bamazonManager](managerAddInventory.png)
+![bamazonManager](managerNewProduct.png)
+_________
 ### **Technologies Used**
 * Node.js
 * MySQL 
